@@ -1,0 +1,27 @@
+.slade_container {
+    width: 1124px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.big_img {
+    width: 700px;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.slade_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slade_box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
